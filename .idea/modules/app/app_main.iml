@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app:main" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.ivieleague" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="C:\Users\josep\Documents\Projects\IntelliJ\font-generator\app\build\kotlin-classes\test" />
+          <option name="classpath" value="C:\Users\josep\Documents\Projects\IntelliJ\font-generator\app\src\main\libs\doubletype.jar;C:\Users\josep\Documents\Projects\IntelliJ\font-generator\app\src\main\libs\Fontastic.jar;C:\Users\josep\Documents\Projects\IntelliJ\font-generator\app\src\main\libs\sfntly.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre8\1.1.2-5\270420dbf234b53aa3f044011825b6876385e7a0\kotlin-stdlib-jre8-1.1.2-5.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\no.tornado\tornadofx\1.7.7\caaccd534fe9ef5dfe4eaf288d16f6706b23a937\tornadofx-1.7.7.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.2-5\6617f5ad8c76e5141fff9da5b8975081cad24ccf\kotlin-stdlib-jre7-1.1.2-5.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.1.2-5\2a34ff04d248615a587e8c0f67c1eb88f8ace5d7\kotlin-reflect-1.1.2-5.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\com.github.salomonbrys.kotson\kotson\2.1.0\e7be27efa6e0b8afe7889ba1a5400580d6aa3373\kotson-2.1.0.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.2-5\508b8b59843653756aeed058a3a421afa0657bcb\kotlin-stdlib-1.1.2-5.jar;C:\Users\josep\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_main" />
+          <option name="jvmTarget" value="1.6" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../app/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../app/src/main/libs/doubletype.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2-5" level="project" />
+    <orderEntry type="library" name="Gradle: no.tornado:tornadofx:1.7.7" level="project" />
+    <orderEntry type="module" module-name="kotlin-core_main" />
+    <orderEntry type="module" module-name="kotlin-networking_main" />
+    <orderEntry type="module" module-name="kotlin-observable_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-5" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.2-5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.salomonbrys.kotson:kotson:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.2-5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../app/src/main/libs/Fontastic.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../app/src/main/libs/sfntly.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
