@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../kotlin-core">
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-core/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-core/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

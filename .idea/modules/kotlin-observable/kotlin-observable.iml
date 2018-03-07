@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../kotlin-observable">
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-observable/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-observable/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-observable/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

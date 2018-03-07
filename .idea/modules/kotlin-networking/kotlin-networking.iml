@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../kotlin-networking">
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-networking/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-networking/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin-networking/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
