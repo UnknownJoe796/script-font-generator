@@ -1,9 +1,0 @@
-[submodule "kotlin-core"]
-	path = kotlin-core
-	url = https://github.com/lightningkite/kotlin-core.git
-[submodule "kotlin-observable"]
-	path = kotlin-observable
-	url = https://github.com/lightningkite/kotlin-observable.git
-[submodule "kotlin-networking"]
-	path = kotlin-networking
-	url = https://github.com/lightningkite/kotlin-networking.git

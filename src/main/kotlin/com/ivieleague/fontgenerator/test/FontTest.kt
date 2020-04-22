@@ -5,7 +5,7 @@ import com.ivieleague.fontasticalternative.FontGlyph
 import com.ivieleague.fontasticalternative.buildTypeface
 import com.ivieleague.fontasticalternative.toFontPoint
 import com.ivieleague.geometry.Vector2F
-import com.lightningkite.kotlin.range.random
+import lk.kotlin.jvm.utils.random.random
 import org.doubletype.ossa.Engine
 import java.io.File
 

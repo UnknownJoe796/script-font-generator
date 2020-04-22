@@ -1,0 +1,34 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4-M1'
+}
+
+group 'com.ivieleague'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    mavenCentral()
+    maven { url "https://dl.bintray.com/lightningkite/com.lightningkite.kotlin" }
+    maven { url "https://dl.bintray.com/lightningkite/com.lightningkite.kotlin.android" }
+    maven { url "https://dl.bintray.com/lightningkite/com.lightningkite.krosslin" }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    def lib_version = '0.7.1'
+    implementation "com.lightningkite.kotlin:utils:$lib_version"
+    implementation "com.lightningkite.kotlin:jackson:$lib_version"
+    implementation "com.lightningkite.kotlin:okhttp:$lib_version"
+    implementation "com.lightningkite.kotlin:okhttp-jackson:$lib_version"
+    implementation "com.lightningkite.kotlin:observable-property:$lib_version"
+    implementation "com.lightningkite.kotlin:observable-list:$lib_version"
+    implementation files("libs/doubletype.jar")
+    implementation files("libs/sfntly.jar")
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
