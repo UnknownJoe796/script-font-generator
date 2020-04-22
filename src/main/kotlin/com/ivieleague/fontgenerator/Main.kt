@@ -33,9 +33,10 @@ fun main(vararg args: String) {
             '{'..'~'
     )
 
+    var offset = 0
     val charToRune = rangeMaps.flatMap {
         it.mapIndexedNotNull { index, char ->
-            if (index < runes.size) char to runes[index]
+            if (index < runes.size) char to runes[offset++]
             else null
         }
     }.toMap()

@@ -25,5 +25,5 @@ object RuneTypes {
             6 to 3,
             6 to 4,
             6 to 5
-    ).map { (a, b) -> com.ivieleague.fontgenerator.rune.RuneTypes.hexRuneVertices[a] to com.ivieleague.fontgenerator.rune.RuneTypes.hexRuneVertices[b] }
+    ).map { (a, b) -> hexRuneVertices[a] to hexRuneVertices[b] }
 }
